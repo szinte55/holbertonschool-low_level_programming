@@ -4,12 +4,12 @@
  *
  * Return: n factorial
  */
-int factorial(int x)
+int factorial(int n)
 {
-	if (x < 0)
+	if (n < 0)
 		return (-1);
-	if(x > 0)
-		return (x * factorial(x - 1));
+	if (n > 0)
+		return (factorial(n - 1) * n);
 	else
 		return (1);
 }
