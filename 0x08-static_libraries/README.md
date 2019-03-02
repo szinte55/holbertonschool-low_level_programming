@@ -1,0 +1,1 @@
+In this project we will explore static libraries.
