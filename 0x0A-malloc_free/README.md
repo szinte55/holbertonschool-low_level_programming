@@ -1,0 +1,1 @@
+In this project we will explore  malloc and free commands in C.
