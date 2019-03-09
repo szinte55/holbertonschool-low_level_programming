@@ -1,0 +1,15 @@
+/**
+ * malloc_checked - allocates memory using malloc
+ * @b: unsigned integer size to allocate
+ * Return: nada
+ */
+void *malloc_checked(unsigned int b)
+{
+	void *ptr;
+
+	ptr = (void *)malloc(b);
+	if (!ptr)
+		exit(98);
+
+	return (ptr);
+}
