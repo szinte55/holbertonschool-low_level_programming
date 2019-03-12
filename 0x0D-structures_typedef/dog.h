@@ -1,5 +1,5 @@
-#ifndef _DOG_H_
-#define _DOG_H_
+#ifndef DOGGY
+#define DOGGY
 
 /**
  * struct dog - define a new type with the following elements
