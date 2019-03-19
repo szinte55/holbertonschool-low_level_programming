@@ -4,17 +4,17 @@
 #include <stdio.h>
 
 /**
- * print_char - function that prints a char
+ * charprint - function that prints a char
  * @args: argument list
  * Return: void
  */
 void charprint(va_list args)
 {
-        printf("%c", va_arg(args, int));
+	printf("%c", va_arg(args, int));
 }
 
 /**
- * print_int - function that prints an int
+ * intprint - function that prints an int
  * @args: argument list
  * Return: void
 */
@@ -25,7 +25,7 @@ void intprint(va_list args)
 
 
 /**
- * print_string - function that prints a string
+ * stringprint - function that prints a string
  * @args: argument list
  *
  * Return: void
@@ -42,7 +42,7 @@ void stringprint(va_list args)
 	printf("%s", z);
 }
 /**
- * print_float - function that prints floats
+ * floatprint - function that prints floats
  * @args: argument list
  *
  * Return: void
